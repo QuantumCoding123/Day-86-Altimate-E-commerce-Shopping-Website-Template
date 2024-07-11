@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Online Shooping Template</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+	<div class="loader-wrap">
+		<div class="preloader">
+			<div class="preloader-close">x</div>
+			<div id="handle-preloader" class="handle-preloader">
+				<div class="animation-preloader">
+					<div class="spinner"></div>
+					<div class="txt-loading">
+						<span data-text-preloader="B" class="letters-loading">
+							B
+						</span>
+						<span data-text-preloader="L" class="letters-loading">
+							L
+						</span>
+						<span data-text-preloader="O" class="letters-loading">
+							O
+						</span>
+						<span data-text-preloader="X" class="letters-loading">
+							X
+						</span>
+						<span data-text-preloader="I" class="letters-loading">
+							I
+						</span>
+						<span data-text-preloader="C" class="letters-loading">
+							C
+						</span>
+					</div>
+				</div>  
+			</div>
+		</div>
+	</div>
+	<!-- Preloader End -->
+ 	
+ 	<!-- Main Header / Header Style Four -->
+	 <header class="main-header header-style-four">
+    	
+        <!-- Header Lower -->
+        <div class="header-lower">
+            
+			<div class="auto-container">
+				<div class="inner-container d-flex justify-content-between align-items-center">
+					
+					<div class="logo-box d-flex align-items-center">
+						<!-- Logo -->
+						<div class="logo"><a href="index.html"><img src="images/dem.png" alt="" title=""></a></div>
+					</div>
+					<div class="nav-outer clearfix">
+						
+						<!-- Main Menu -->
+						<nav class="main-menu show navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class="dropdown"><a href="index.html">Home</a>
+									</li>
+									<li><a href="about.html">About</a></li>
+									<li class="dropdown"><a href="index.html">Shop</a>
+									<li><a href="contact.html">Contact us</a></li>
+								</ul>
+							</div>
+							
+						</nav>
+						<!-- Main Menu End-->
+						
+					</div>
+					
+						
+					<!-- Options Box -->
+					<div class="options-box d-flex align-items-center">
+					
+						<!-- Search Box -->
+						<div class="search-box-outer">
+							<div class="search-box-btn"><span class="flaticon-search-1"></span></div>
+						</div>
+						
+						<!-- User Box -->
+						<a class="user-box flaticon-user-3" href="contact.html"></a>
+						
+						<!-- Like Box -->
+						<div class="like-box">
+							<a class="user-box flaticon-heart" href="contact.html"></a>
+							<span class="total-like">0</span>
+						</div>
+						
+						<!-- Cart Box -->
+						<div class="cart-box-two">
+							<a class="flaticon-shopping-bag" href="shop.html"></a>
+							<span class="total-like">0</span>
+						</div>
+						
+						<!-- Mobile Navigation Toggler -->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+        </div>
+        <!-- End Header Lower -->
+        
+		<!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- Logo -->
+					<div class="logo">
+						<a href="index.html" title=""><img src="images/logo-small.png" alt="" title=""></a>
+					</div>
+					
+					<!-- Right Col -->
+					<div class="right-box">
+						<!-- Main Menu -->
+						<nav class="main-menu">
+							<!--Keep This Empty / Menu will come through Javascript-->
+						</nav>
+						<!-- Main Menu End-->
+						
+						<!-- Mobile Navigation Toggler -->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+					</div>
+					
+				</div>
+            </div>
+        </div>
+		<!-- End Sticky Menu -->
+    
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/mobile-logo.png" alt="" title=""></a></div>
+				<!-- Search -->
+				<div class="search-box">
+					<form method="post" action="contact.html">
+						<div class="form-group">
+							<input type="search" name="search-field" value="" placeholder="SEARCH HERE" required>
+							<button type="submit"><span class="icon flaticon-search-1"></span></button>
+						</div>
+					</form>
+				</div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </nav>
+        </div>
+		<!-- End Mobile Menu -->
+	
+    </header>
+    <!-- End Main Header -->
+	
+	<!-- Page Title -->
+    <section class="page-title">
+        <div class="auto-container">
+			<h2>Contact Us</h2>
+			<ul class="bread-crumb clearfix">
+				<li><a href="index.html">Home</a></li>
+				<li>Pages</li>
+				<li>Contact Us</li>
+			</ul>
+        </div>
+    </section>
+    <!-- End Page Title -->
+	
+	<!-- Contact Page Section -->
+    <div class="contact-page-section">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+				<!-- Info Column -->
+				<div class="info-column col-lg-4 col-md-12 col-sm-12">
+					<div class="inner-column">
+					
+						<!-- Info Box -->
+						<div class="info-box">
+							<div class="box-inner d-flex align-items-center">
+								<div class="icon flaticon-email-1"></div>
+								<div class="content">
+									<strong>Mail address</strong>
+									<a href="mailto:prinox@gmail.com">prinox@gmail.com</a><br>
+									<a href="tel:+998757478492">+998757478492</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Info Box -->
+						<div class="info-box">
+							<div class="box-inner d-flex align-items-center">
+								<div class="icon flaticon-map"></div>
+								<div class="content">
+									<strong>Office address</strong>
+									<div class="text">Digital Agency Network 2021 Eastbourne Terrace</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Info Box -->
+						<div class="info-box">
+							<div class="box-inner d-flex align-items-center">
+								<div class="icon flaticon-call"></div>
+								<div class="content">
+									<strong>Phone Number</strong>
+									<a href="tel:+880-123-456-789">+880 123 456 789</a><br>
+									<a href="tel:+9987574">+9987574</a>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<!-- Map Column -->
+				<div class="map-column col-lg-8 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!--Map Outer-->
+						<div class="map-outer">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Contact Boxed -->
+			<div class="contact-boxed">
+				<!-- Title Box -->
+				<div class="title-box">
+					<h3>Drop Us a Line</h3>
+					<div class="text">Your email address will not be published. Required fields are marked *</div>
+				</div>
+				
+				<!-- Contact Form -->
+				<div class="contact-form">
+					<form method="post" action="sendemail.php" id="contact-form">
+						<div class="row clearfix">
+							
+							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
+								<input type="text" name="username" placeholder="Enter Your name" required="">
+							</div>
+							
+							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
+								<input type="text" name="email" placeholder="Enter Email Address*" required="">
+							</div>
+							
+							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
+								<select name="currency" class="custom-select-box" name="services" required>
+									<option>Select Service Type</option>
+									<option>City 01</option>
+									<option>City 02</option>
+									<option>City 03</option>
+									<option>City 04</option>
+								</select>
+							</div>
+							
+							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
+								<input type="text" name="phone" placeholder="Enter Phone Number" required="">
+							</div>
+							
+							<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+								<textarea class="" name="message" placeholder="Enter Your Messege here"></textarea>
+							</div>
+							
+							<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+								<div class="buttons-box">
+									<button class="theme-btn btn-style-one">
+										post a comment
+									</button>
+								</div>
+							</div>
+							
+						</div>
+					</form>
+				</div>
+				<!-- End Contact Form -->
+				
+			</div>
+			<!-- End Contact Boxed -->
+			
+		</div>
+	</div>
+	<!-- End Contact Page Section -->
+	
+	
+	
+	<!-- Main Footer -->
+    <footer class="main-footer">
+		<div class="auto-container">
+			
+			<!-- Widgets Section -->
+            <div class="widgets-section">
+				<div class="row clearfix">
+					<!-- Column -->
+                    <div class="big-column col-lg-7 col-md-12 col-sm-12">
+						<div class="row clearfix">
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+									<!-- Logo -->
+									<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+									<div class="text">4517 Washington Ave. Manchester, Kentucky 39495 ashington Ave. Manchester, </div>
+									<ul class="contact-list">
+										<li><span class="icon flaticon-map"></span>254 Lillian Blvd, Holbrook</li>
+										<li><span class="icon flaticon-call"></span>1-800-654-3210</li>
+									</ul>
+								</div>
+							</div>
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+									<h5>Find It Fast</h5>
+									<ul class="page-list">
+										<li><a href="#">Laptops & Computers</a></li>
+										<li><a href="#">Cameras & Photography</a></li>
+										<li><a href="#">Smart Phones & Tablets</a></li>
+										<li><a href="#">Video Games & Consoles</a></li>
+										<li><a href="#">TV & Audio</a></li>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!-- Column -->
+                    <div class="big-column col-lg-5 col-md-12 col-sm-12">
+						<div class="row clearfix">
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+									<h5>Quick Links</h5>
+									<ul class="page-list">
+										<li><a href="#">Your Account</a></li>
+										<li><a href="#">Returns & Exchanges</a></li>
+										<li><a href="#">Return Center</a></li>
+										<li><a href="#">Purchase Hisotry</a></li>
+										<li><a href="#">App Download</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget instagram-widget">
+									<h5>Service us</h5>
+									<ul class="page-list-two">
+										<li><a href="#">Support Center</a></li>
+										<li><a href="#">Term & Conditions</a></li>
+										<li><a href="#">Shipping</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">Help</a></li>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		<!-- Footer Bottom -->
+		<div class="footer-bottom">
+			<div class="d-flex justify-content-between align-items-center flex-wrap">
+				<div class="copyright"><span>&copy; 2024</span> 2024 Powered by Quantum Coding. All Rights Reserved.</div>
+				<div class="email-box">
+					<a href="mailto:quantumcoding123@gmail.com"><span class="icon flaticon-mail"></span>quantumcoding123@gmail.com</a>
+				</div>
+				<div class="cards"><img src="images/icons/cards.png" alt="" /></div>
+			</div>
+		</div>
+		
+	</div>
+</footer>
+<!-- End Main Footer -->
+	
+</div>
+<!-- End PageWrapper -->
+
+<!-- Search Popup -->
+<div class="search-popup">
+	<div class="color-layer"></div>
+	<button class="close-search"><span class="fa fa-arrow-up"></span></button>
+	<form method="post" action="blog.html">
+		<div class="form-group">
+			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+	</form>
+</div>
+<!-- End Search Popup -->
+
+<!-- Scroll To Top -->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+<!-- End Scroll To Top -->
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/backToTop.js"></script>
+<script src="js/nav-tool.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</body>
+</html>
